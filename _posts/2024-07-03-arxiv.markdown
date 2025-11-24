@@ -12,5 +12,5 @@ media_AK:
 media_MrNeRF: 
 zhihu:
 bibtex: /bibtex/bvivideo.txt
-authors: Ruirui Lin, <strong>Guoxi Huang† </strong>, Joanne Lin, Qi Sun, Alexandra Malyugina, David Bull, Nantheera Anantrasirichai
+authors: Ruirui Lin, <strong>Guoxi Huang† </strong>, Joanne Lin, Qi Sun, Alexandra Malyugina, David Bull, Nantheera Anantrasirichai†
 ---
