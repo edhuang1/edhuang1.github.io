@@ -1,0 +1,6 @@
+@article{huang2026bayesian,
+  title={Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement},
+  author={Huang, Guoxi and Yang, Qirui and Qi, Zipeng and Lin, RuiRui and Bull, David and Anantrasirichai, Nantheera},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}
