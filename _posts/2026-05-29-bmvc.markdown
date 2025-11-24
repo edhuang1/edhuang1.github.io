@@ -1,1 +1,17 @@
+---
+layout: post
+title:  "RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction"
+date:   2025-05-21 08:00:00 +00:00
+image: /images/Rusplatting.png
+categories: research
+author: "Guoxi Huang"
+venue: BMVC 2025
+paper: [https://arxiv.org/pdf/2501.14265](https://arxiv.org/pdf/2505.15737)
+project: 
+media_AK: 
+media_MrNeRF: 
+zhihu:
+bibtex: /bibtex/rusplatting.txt
+authors: Zhuodong Jiang, Haoran Wang, <strong>Guoxi Huang </strong>, Brett Seymour, Nantheera Anantrasirichai
+---
 
