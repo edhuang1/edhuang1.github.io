@@ -1,20 +1,5 @@
 ---
 layout: post
-title:  "Bayesian neural networks for one-to-many mapping in image enhancement"
-date:   2025-11-20 08:00:00 +00:00
-image: /images/bvivideo.png
-categories: research
-author: "Guoxi Huang"
-venue: arxiv
-paper: https://arxiv.org/pdf/2407.03535
-project: 
-media_AK: 
-media_MrNeRF: 
-zhihu:
-bibtex: /bibtex/bvivideo.txt
-authors: Guoxi Huang, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichai
-
-layout: post
 title:  "BVI-RLV: A Fully Registered Dataset and Benchmarks for Low-Light Video Enhancement"
 date:   2024-07-03 08:00:00 +00:00
 image: /images/bvivideo.png
@@ -27,5 +12,5 @@ media_AK:
 media_MrNeRF: 
 zhihu:
 bibtex: /bibtex/bvivideo.txt
-authors: Ruirui Lin, Nantheera Anantrasirichai, <strong>Guoxi Huang </strong>, Joanne Lin, Qi Sun, Alexandra Malyugina, David R Bull 
+authors: Ruirui Lin, <strong>Guoxi Huang </strong>, Joanne Lin, Qi Sun, Alexandra Malyugina, David Bull, Nantheera Anantrasirichai
 ---
