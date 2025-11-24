@@ -7,7 +7,7 @@ categories: research
 author: "Guoxi Huang"
 venue: Association for the Advancement of Artificial Intelligence (AAAI)
 paper: https://arxiv.org/pdf/2501.14265
-project: 
+project: https://github.com/BinCVER/BEM
 media_AK: 
 media_MrNeRF: 
 zhihu:
