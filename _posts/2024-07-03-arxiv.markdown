@@ -13,10 +13,7 @@ media_MrNeRF:
 zhihu:
 bibtex: /bibtex/bvivideo.txt
 authors: Guoxi Huang, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichai
----
 
-
----
 layout: post
 title:  "BVI-RLV: A Fully Registered Dataset and Benchmarks for Low-Light Video Enhancement"
 date:   2024-07-03 08:00:00 +00:00
