@@ -1,0 +1,6 @@
+@article{jiang2025rusplatting,
+  title={RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction},
+  author={Jiang, Zhuodong and Wang, Haoran and Huang, Guoxi and Seymour, Brett and Anantrasirichai, Nantheera},
+  journal={BMVC},
+  year={2025}
+}
