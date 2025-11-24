@@ -1,1 +1,17 @@
+---
+layout: post
+title:  "Bayesian neural networks for one-to-many mapping in image enhancement"
+date:   2024-07-03 08:00:00 +00:00
+image: /images/bvivideo.png
+categories: research
+author: "Guoxi Huang"
+venue: arxiv
+paper: https://arxiv.org/pdf/2407.03535
+project: 
+media_AK: 
+media_MrNeRF: 
+zhihu:
+bibtex: /bibtex/bvivideo.txt
+authors: <strong>Guoxi Huang </strong>, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichaii
+---
 
