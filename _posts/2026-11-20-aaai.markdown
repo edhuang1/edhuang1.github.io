@@ -5,7 +5,7 @@ date:   2025-11-20 08:00:00 +00:00
 image: /images/BEM.png
 categories: research
 author: "Guoxi Huang"
-venue: AAAI 2026
+venue: Association for the Advancement of Artificial Intelligence (AAAI)
 paper: https://arxiv.org/pdf/2501.14265
 project: 
 media_AK: 
