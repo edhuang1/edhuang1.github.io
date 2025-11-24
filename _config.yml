@@ -21,7 +21,7 @@ footer-links:
   email: guoxi.huang@bristol.ac.uk
   facebook:
   flickr:
-  # github: russellllaputa
+  # github: edhuang
   instagram: 
   linkedin:
   pinterest:
@@ -42,7 +42,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "https://russellllaputa.github.io" # the base hostname & protocol for your site
+url: "https://edhuang.github.io" # the base hostname & protocol for your site
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -93,5 +93,5 @@ exclude:
 
 deploy:
   type: git
-  repo: https://github.com/russellllaputa/russellllaputa.github.io
+  repo: https://github.com/EdHuang1/edhuang.github.io
   branch: main
