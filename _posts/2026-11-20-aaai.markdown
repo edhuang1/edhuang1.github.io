@@ -11,7 +11,7 @@ project:
 media_AK: 
 media_MrNeRF: 
 zhihu:
-bibtex: /bibtex/bvivideo.txt
+bibtex: /bibtex/bem.txt
 authors: <strong>Guoxi Huang </strong>, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichaii
 ---
 
