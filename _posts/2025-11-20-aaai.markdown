@@ -6,13 +6,11 @@ image: /images/clip_default.gif
 categories: research
 author: "Guoxi Huang"
 venue: Association for the Advancement of Artificial Intelligence (AAAI)
+paper: https://arxiv.org/pdf/2501.14265
 project: https://github.com/BinCVER/BEM
-project: 
 media_AK: 
 media_MrNeRF: 
 zhihu:
-bibtex: /bibtex/rusplatting.txt
-authors: Zhuodong Jiang, Haoran Wang, <strong>Guoxi Huang</strong>, Brett Seymour, Nantheera Anantrasirichai
+bibtex: /bibtex/bem.txt
+authors: <strong>Guoxi Huang </strong>, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichaii
 ---
-
-
