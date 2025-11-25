@@ -14,3 +14,4 @@ zhihu:
 bibtex: /bibtex/bem.txt
 authors: <strong>Guoxi Huang </strong>, Qirui Yang, Zipeng Qi, RuiRui Lin, David Bull, Nantheera Anantrasirichaii
 ---
+The first work to use Bayesian Neural Networks to address image enhancment problem
