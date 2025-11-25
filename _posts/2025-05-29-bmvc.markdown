@@ -14,4 +14,4 @@ zhihu:
 bibtex: /bibtex/rusplatting.txt
 authors: Zhuodong Jiang, Haoran Wang, <strong>Guoxi Huang</strong>, Brett Seymour, Nantheera Anantrasirichai
 ---
-
+A 3DGS for underwater scence rencostrction
