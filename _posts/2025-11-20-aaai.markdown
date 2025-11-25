@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement"
-date:   2026-01-20 08:00:00 +00:00
+date:   2025-11-20 08:00:00 +00:00
 image: /images/clip_default.gif
 categories: research
 author: "Guoxi Huang"
