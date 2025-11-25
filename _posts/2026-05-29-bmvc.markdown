@@ -2,7 +2,7 @@
 layout: post
 title:  "RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction"
 date:   2025-05-21 08:00:00 +00:00
-video: /images/isro_rus.gif
+image: /images/isro_rus.gif
 categories: research
 author: "Guoxi Huang"
 venue: British Machine Vision Conference (BMVC)
