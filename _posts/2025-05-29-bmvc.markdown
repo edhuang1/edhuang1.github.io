@@ -7,7 +7,7 @@ categories: research
 author: "Guoxi Huang"
 venue: British Machine Vision Conference (BMVC)
 paper: https://arxiv.org/pdf/2505.15737
-project: 
+project: https://theflash987.github.io/RUSplatting.page/
 media_AK: 
 media_MrNeRF: 
 zhihu:
