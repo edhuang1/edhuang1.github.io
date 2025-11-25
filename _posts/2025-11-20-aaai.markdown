@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction"
-date:   2025-05-29 08:00:00 +00:00
-image: /images/isro_rus.gif
+title:  "Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement"
+date:   2026-01-20 08:00:00 +00:00
+image: /images/clip_default.gif
 categories: research
 author: "Guoxi Huang"
-venue: British Machine Vision Conference (BMVC)
-paper: https://arxiv.org/pdf/2505.15737
+venue: Association for the Advancement of Artificial Intelligence (AAAI)
+project: https://github.com/BinCVER/BEM
 project: 
 media_AK: 
 media_MrNeRF: 
