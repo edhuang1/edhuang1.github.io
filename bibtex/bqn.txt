@@ -1,0 +1,9 @@
+@article{huang2022bqn,
+  title={BQN: Busy-Quiet net enabled by motion band-pass module for action recognition},
+  author={Huang, Guoxi and Bors, Adrian G},
+  journal={IEEE Transactions on Image Processing},
+  volume={31},
+  pages={4966--4979},
+  year={2022},
+  publisher={IEEE}
+}
