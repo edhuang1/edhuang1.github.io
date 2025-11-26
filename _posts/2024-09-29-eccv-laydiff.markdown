@@ -12,6 +12,6 @@ media_AK:
 media_MrNeRF: 
 zhihu:
 bibtex: /bibtex/laydiff.txt
-authors: Zipeng Qi*, <strong>Guoxi Huang*†</strong>, Chenyang Liu, and Fei Ye
+authors: Zipeng Qi*, <strong>Guoxi Huang*†</strong>, Chenyang Liu, Fei Ye
 ---
 A novel image generation framework capable of producing images from specified layouts and shapes.
