@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Masked Image Residual Learning for Scaling Deeper Vision Transformers
+title:  Masked Image Residual Learning for Scaling Deeper Vision Transformers
 date:   2023-09-25 08:00:00 +00:00
 image: /images/mirl.png
 categories: research
