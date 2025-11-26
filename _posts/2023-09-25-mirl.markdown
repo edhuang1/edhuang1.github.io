@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Masked Image Residual Learning for Scaling Deeper Vision Transformers
