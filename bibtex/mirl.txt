@@ -1,0 +1,8 @@
+@article{huang2023masked,
+  title={Masked image residual learning for scaling deeper vision transformers},
+  author={Huang, Guoxi and Fu, Hongtao and Bors, Adrian G},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={57570--57582},
+  year={2023}
+}
