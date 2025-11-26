@@ -5,13 +5,13 @@ date:   2024-09-29 08:00:00 +00:00
 image: /images/clip_default.gif
 categories: research
 author: "Guoxi Huang"
-venue: Association for the Advancement of Artificial Intelligence (AAAI)
-paper: https://arxiv.org/pdf/2501.14265
-project: https://github.com/BinCVER/BEM
+venue: European Conference on Computer Vision (ECCV)
+paper: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08372.pdf
+project: https://qizipeng.github.io/LRDiff_projectPage/
 media_AK: 
 media_MrNeRF: 
 zhihu:
-bibtex: /bibtex/bem.txt
-authors: Zipeng Qi*, <strong>Guoxi Huang*</strong>, Chenyang Liu, and Fei Ye
+bibtex: /bibtex/laydiff.txt
+authors: Zipeng Qi*, <strong>Guoxi Huang*†</strong>, Chenyang Liu, and Fei Ye
 ---
-An image enhancement model that can generate multiple enhanced images using Bayesian Neural Networks.
+A novel image generation framework capable of producing images from specified layouts and shapes.
