@@ -2,7 +2,7 @@
 layout: post
 title:  "Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis"
 date:   2024-09-29 08:00:00 +00:00
-image: /images/clip_default.gif
+image: /images/laydiff.png
 categories: research
 author: "Guoxi Huang"
 venue: European Conference on Computer Vision (ECCV)
