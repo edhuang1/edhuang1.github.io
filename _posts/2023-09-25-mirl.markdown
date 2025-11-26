@@ -2,7 +2,7 @@
 layout: post
 title:  Masked Image Residual Learning for Scaling Deeper Vision Transformers
 date:   2023-09-25 08:00:00 +00:00
-image: /images/mirl.png
+image: /images/mirl.jpg
 categories: research
 author: "Guoxi Huang"
 venue: Neural Information Processing Systems (NeurIPS)
