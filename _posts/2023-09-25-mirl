@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Masked Image Residual Learning for Scaling Deeper Vision Transformers
+date:   2023-09-25 08:00:00 +00:00
+image: /images/mirl.png
+categories: research
+author: "Guoxi Huang"
+venue: Neural Information Processing Systems (NeurIPS)
+paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/b3bac97f3227c52c0179a6d967480867-Paper-Conference.pdf
+project: https://github.com/russellllaputa/MIRL
+media_AK: 
+media_MrNeRF: 
+zhihu:
+bibtex: /bibtex/mirl.txt
+authors:  <strong>Guoxi Huang</strong>, Hongtao Fu, Adrian G Bors
+---
+A novel masked image modeling framework for pre-training vision transformers.
