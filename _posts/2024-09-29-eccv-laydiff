@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis"
+date:   2024-09-29 08:00:00 +00:00
+image: /images/clip_default.gif
+categories: research
+author: "Guoxi Huang"
+venue: Association for the Advancement of Artificial Intelligence (AAAI)
+paper: https://arxiv.org/pdf/2501.14265
+project: https://github.com/BinCVER/BEM
+media_AK: 
+media_MrNeRF: 
+zhihu:
+bibtex: /bibtex/bem.txt
+authors: Zipeng Qi*, <strong>Guoxi Huang*</strong>, Chenyang Liu, and Fei Ye
+---
+An image enhancement model that can generate multiple enhanced images using Bayesian Neural Networks.
