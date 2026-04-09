@@ -1,0 +1,6 @@
+@article{lu2026hdgs,
+  title={Learning Fine-Grained Geometry for Sparse-View Splatting via Cascade Depth Loss},
+  author={Lu, Wenjun and Chen, Haodong and Yi, Anqi and Huang, Guoxi and Chung, Yuk Ying and Hu, Kun and Wang, Zhiyong},
+  journal={IEEE International Conference on Multimedia and Expo (ICME 2026)},
+  year={2026}
+}

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Learning Fine-Grained Geometry for Sparse-View Splatting via Cascade Depth Loss"
+date:   2026-04-02 08:00:00 +00:00
+image: /images/hdgs.png
+categories: research
+author: "Guoxi Huang"
+venue: IEEE International Conference on Multimedia and Expo (ICME)
+paper: https://arxiv.org/pdf/2505.22279
+project:
+media_AK:
+media_MrNeRF:
+zhihu:
+bibtex: /bibtex/hdgs.txt
+authors: Wenjun Lu, Haodong Chen, Anqi Yi, <strong>Guoxi Huang</strong>, Yuk Ying Chung, Kun Hu, Zhiyong Wang
+---
+HDGS uses cascaded multi-scale depth supervision to improve sparse-view splatting geometry and reconstruction fidelity.
