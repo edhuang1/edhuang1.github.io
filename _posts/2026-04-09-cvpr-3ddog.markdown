@@ -12,7 +12,7 @@ project: https://github.com/WangHaoran16/Prune-Wisely-Reconstruct-Sharply
 media_AK: 
 media_MrNeRF: 
 zhihu:
-bibtex: /bibtex/bem.txt
+bibtex: /bibtex/3ddog.txt
 authors: Haoran Wang, <strong>Guoxi Huang </strong>, Fan Zhang, David Bull, Nantheera Anantrasirichaii
 ---
 A Compact 3D Gaussian Splatting framework with Difference-of-Gaussian Primitives
