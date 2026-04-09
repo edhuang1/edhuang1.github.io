@@ -99,6 +99,10 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.obfuscated-email {
+  color: #1772d0;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
