@@ -1,0 +1,6 @@
+@article{wang2026prune,
+  title={Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via Adaptive Pruning and Difference-of-Gaussian Primitives},
+  author={Wang, Haoran and Huang, Guoxi and Zhang, Fan and Bull, David and Anantrasirichai, Nantheera},
+  journal={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)},
+  year={2026}
+}

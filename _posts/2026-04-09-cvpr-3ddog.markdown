@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via
+Adaptive Pruning and Difference-of-Gaussian Primitives"
+date:   2026-04-09 08:00:00 +00:00
+image: /images/3D_DoG.png
+categories: research
+author: "Guoxi Huang"
+venue: Conference on Computer Vision and Pattern Recognition (CVPR)
+paper: https://arxiv.org/pdf/2602.24136
+project: https://github.com/WangHaoran16/Prune-Wisely-Reconstruct-Sharply
+media_AK: 
+media_MrNeRF: 
+zhihu:
+bibtex: /bibtex/bem.txt
+authors: Haoran Wang, <strong>Guoxi Huang </strong>, Fan Zhang, David Bull, Nantheera Anantrasirichaii
+---
+A Compact 3D Gaussian Splatting framework with Difference-of-Gaussian Primitives
