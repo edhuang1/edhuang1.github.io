@@ -5,7 +5,6 @@
 #   badge      - short label shown on the image, e.g. "CVPR 2026"
 #   image      - teaser image (also used as the video poster)
 #   video      - optional looping mp4 shown instead of the image
-#   highlight  - true for first / co-first author papers (yellow background)
 #   preprint   - true to list under "Preprints" instead of "Publications"
 #   project, paper, code, bibtex - optional links
 #   links      - optional extra links, e.g. [{name: Video, url: "https://..."}]
@@ -52,7 +51,6 @@
   year: 2026
   badge: "AI Review 2026"
   image: /images/uwreview.jpg
-  highlight: true
   paper: https://arxiv.org/abs/2505.01869
   bibtex: /bibtex/uwreview.txt
   summary: "A systematic review of underwater visual enhancement and underwater 3D reconstruction, from physical imaging models to learning-based methods."
@@ -95,7 +93,6 @@
   badge: "AAAI 2026"
   image: /images/bem_demo.jpg
   video: /images/bem_demo.mp4
-  highlight: true
   paper: https://arxiv.org/pdf/2501.14265
   code: https://github.com/BinCVER/BEM
   bibtex: /bibtex/bem.txt
@@ -132,7 +129,6 @@
   year: 2025
   badge: "MLCD 2025"
   image: /images/bvimamba.jpg
-  highlight: true
   paper: https://arxiv.org/abs/2604.23655
   code: https://github.com/russellllaputa/BVI-Mamba
   bibtex: /bibtex/bvimamba.txt
@@ -144,7 +140,6 @@
   year: 2024
   badge: "ECCV 2024"
   image: /images/laydiff.png
-  highlight: true
   project: https://qizipeng.github.io/LRDiff_projectPage/
   paper: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08372.pdf
   bibtex: /bibtex/laydiff.txt
@@ -156,7 +151,6 @@
   year: 2023
   badge: "NeurIPS 2023"
   image: /images/mirl.jpg
-  highlight: true
   paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/b3bac97f3227c52c0179a6d967480867-Paper-Conference.pdf
   code: https://github.com/russellllaputa/MIRL
   bibtex: /bibtex/mirl.txt
@@ -168,7 +162,6 @@
   year: 2022
   badge: "TIP 2022"
   image: /images/bqn.jpg
-  highlight: true
   paper: https://ieeexplore.ieee.org/document/9833387
   code: https://github.com/edhuang1/busy-quiet-net
   bibtex: /bibtex/bqn.txt
@@ -204,7 +197,6 @@
   year: 2025
   badge: "arXiv 2025"
   image: /images/r2r.jpg
-  highlight: true
   preprint: true
   paper: https://arxiv.org/abs/2509.17789
   bibtex: /bibtex/r2r.txt
