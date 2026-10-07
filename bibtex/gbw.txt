@@ -1,0 +1,6 @@
+@inproceedings{caldeira2026geometry,
+  title={Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting},
+  author={Caldeira, Harvey and Wang, Haoran and Huang, Guoxi and Cai, Shaoyu and Fu, Rachel and Anantrasirichai, Nantheera},
+  booktitle={SIGGRAPH Asia 2026 Posters},
+  year={2026}
+}

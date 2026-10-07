@@ -1,120 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Guoxi Huang (Edward) - Homepage</title>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <meta name="author" content="{{ site.name }}" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
-
-
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:80%;vertical-align:middle">
-              <h1>
-                Guoxi Huang (Edward)
-              </h1>
-              <p>I am a Postdoctoral Research Associate at the <a href="https://www.bristol.ac.uk/">University of Bristol</a>, advised by <a href="https://pui-nantheera.github.io/">Prof. Nantheera Anantrasirichai (Pui)</a>. I am a member of the <a href="https://vilab.blogs.bristol.ac.uk/">Visual Information Laboratory</a> and the <a href="https://www.bristol.ac.uk/vision-institute/">Bristol Vision Institute</a>, which are both led by <a href="https://david-bull.github.io/">Prof. David Bull</a>. Prior to this, I was a Senior Research Engineer at <a href="https://en.wikipedia.org/wiki/Baidu">Baidu Inc.</a> 
-                My research focuses on image generation, low-level vision, image/video understanding and other computer vision topics.
-              </p>
-              <p style="text-align:center">
-                <a href="https://scholar.google.com/citations?user=q16Hy-sAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/edward-huang-b7a757145/">LinkedIn</a> 
-              </p>
-              <p>If you are interested in collaborating, please contact me via email at <span class="obfuscated-email">guoxi.huang [at] bristol.ac.uk</span></p>
-            </td>
-            <td style="padding:2.5%;width:20%;max-width:20%">
-              <img style="width:100%;max-width:100%" alt="self photo" src="images/id.jpg"/>
-            </td>
-          </tr>
-        </table>
+  <header class="masthead">
+    <div class="masthead__inner-wrap">
+      <nav class="greedy-nav" aria-label="Primary navigation">
+        <a class="masthead__menu-home-item" href="#about-me">Homepage</a>
+        <ul class="visible-links">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          {% for pub in site.data.publications %}{% if pub.preprint %}<li><a href="#preprints">Preprints</a></li>{% break %}{% endif %}{% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <div id="main" role="main">
+    {% include sidebar.html %}
 
+    <article class="page">
+      <div class="page__inner-wrap">
+        <section class="page__content">
+          {{ content }}
+        </section>
+      </div>
+    </article>
+  </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <h2>Publication <span style="font-weight: normal; font-size: 0.8em;">(* = Equal Contribution, † = Corresponding Author)</span></h2>
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:0.1%;width:30%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:70%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <br>
-              {{post.authors}}
+  <footer class="page-footer">
+    &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}.
+  </footer>
 
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a>
-              {% endif %}
-              {% if post.project %}
-              / <a href="{{post.project}}">project</a>
-              {% endif %}
-              {% if post.video %}
-              / <a href="{{post.video}}">video</a> 
-              {% endif %}
-              {% if post.zhihu %}
-              / <a href="{{post.zhihu}}">zhihu</a>
-              {% endif %}
-              {% if post.leaderboard %}
-              / <a href="{{post.leaderboard}}">leaderboard</a>
-              {% endif %}
-              {% if post.media_AK %}
-              / <a href="{{post.media_AK}}">media (AK)</a>
-              {% endif %}
-              {% if post.media_MrNeRF %}
-              / <a href="{{post.media_MrNeRF}}">media (MrNeRF)</a>
-              {% endif %}
-              {% if post.bibtex %}
-              / <a href="{{post.bibtex}}">bibtex</a>
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        
-        <br>
-        <br>
-
-<!--          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <h2>Peer Reviewer</h2>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;vertical-align:left">
-              <p>
-                Conference: CVPR, NeurIPS, BMVC, etc.
-              </p>
-              <p>
-                Journal: TPAMI, IJCV, TIP, TNNLS, Pattern Recognition, etc.
-              </p>
-            </td>
-          </tr>
-        </table> -->
-        
-        <br>
-      </td>
-    </tr>
-  </table>
+  <script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
 </body>
-
 </html>
-

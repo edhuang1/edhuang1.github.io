@@ -1,0 +1,33 @@
+# News items, newest first. `text` may contain HTML.
+- date: "2026.10"
+  text: '<strong>BVI-RLV</strong> (low-light video dataset) is accepted to <strong>IEEE Transactions on Multimedia</strong>.'
+
+- date: "2026.09"
+  text: '<strong>OceanXL</strong> (large-scale underwater 3D Gaussian Splatting) is accepted to <strong>SIGGRAPH Asia 2026</strong>.'
+
+- date: "2026.09"
+  text: '<strong>Geometry beneath the Waves</strong> (sparse-view underwater 3DGS) is accepted as a <strong>SIGGRAPH Asia 2026</strong> poster.'
+
+- date: "2026.05"
+  text: 'Our review on underwater visual enhancement and 3D representation is published in <strong>Artificial Intelligence Review</strong>.'
+
+- date: "2026.04"
+  text: '<strong>Prune Wisely, Reconstruct Sharply</strong> (compact 3D Gaussian Splatting) is accepted to <strong>CVPR 2026</strong>.'
+
+- date: "2026.04"
+  text: '<strong>HDGS</strong> (sparse-view splatting via cascade depth loss) is accepted to <strong>ICME 2026</strong>.'
+
+- date: "2025.11"
+  text: '<strong>BEM</strong> (Bayesian neural networks for one-to-many image enhancement) is accepted to <strong>AAAI 2026</strong>.'
+
+- date: "2025.05"
+  text: '<strong>RUSplatting</strong> (sparse-view underwater scene reconstruction) is accepted to <strong>BMVC 2025</strong>.'
+
+- date: "2024.09"
+  text: '<strong>Layered Rendering Diffusion</strong> (controllable zero-shot image synthesis) is accepted to <strong>ECCV 2024</strong>.'
+
+- date: "2023.09"
+  text: '<strong>MIRL</strong> (masked image residual learning for deeper ViTs) is accepted to <strong>NeurIPS 2023</strong>.'
+
+- date: "2022.07"
+  text: '<strong>BQN</strong> (Busy-Quiet Net for action recognition) is published in <strong>IEEE TIP</strong>.'

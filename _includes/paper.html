@@ -1,0 +1,34 @@
+{% comment %} One publication card. Expects `pub` from the enclosing loop. {% endcomment %}
+<div class="paper-box{% if pub.highlight %} paper-box-highlight{% endif %}">
+  <div class="paper-box-image">
+    <div>
+      {% if pub.badge %}<div class="badge{% if pub.preprint %} bg-muted{% endif %}">{{ pub.badge }}</div>{% endif %}
+      {% if pub.video %}
+      <video src="{{ site.baseurl }}{{ pub.video }}" poster="{{ site.baseurl }}{{ pub.image }}" muted autoplay loop playsinline preload="metadata" aria-label="{{ pub.title | escape }} preview"></video>
+      {% else %}
+      <img src="{{ site.baseurl }}{{ pub.image }}" alt="{{ pub.title | escape }} preview" loading="lazy">
+      {% endif %}
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong class="paper-title">{{ pub.title }}</strong><br>
+      {{ pub.authors }}
+    </p>
+    <p class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+    {% assign sep = false %}
+    <p class="paper-links">
+      {% if pub.project %}<a href="{{ pub.project }}" target="_blank" rel="noopener">Project</a>{% assign sep = true %}{% endif %}
+      {% if pub.paper %}{% if sep %} / {% endif %}<a href="{{ pub.paper }}" target="_blank" rel="noopener">Paper</a>{% assign sep = true %}{% endif %}
+      {% if pub.code %}{% if sep %} / {% endif %}<a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% assign sep = true %}{% endif %}
+      {% for link in pub.links %}{% if sep %} / {% endif %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>{% assign sep = true %}{% endfor %}
+      {% if pub.bibtex %}{% if sep %} / {% endif %}<a class="js-bibtex" href="{{ site.baseurl }}{{ pub.bibtex }}">BibTeX</a>{% endif %}
+    </p>
+    {% if pub.bibtex %}
+    <div class="bibtex-block" hidden>
+      <button type="button" class="bibtex-copy">Copy</button>
+      <pre><code></code></pre>
+    </div>
+    {% endif %}
+    {% if pub.summary %}<p class="paper-summary">{{ pub.summary }}</p>{% endif %}
+  </div>
+</div>

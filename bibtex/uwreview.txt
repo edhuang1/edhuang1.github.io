@@ -1,0 +1,6 @@
+@article{huang2026visual,
+  title={Visual Enhancement and 3D Representation for Underwater Scenes: A Review},
+  author={Huang, Guoxi and Wang, Haoran and Seymour, Brett and Kovacs, Evan and Ellerbrock, John and Blackham, Dave and Anantrasirichai, Nantheera},
+  journal={Artificial Intelligence Review},
+  year={2026}
+}

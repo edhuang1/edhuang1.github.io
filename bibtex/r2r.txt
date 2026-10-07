@@ -1,0 +1,6 @@
+@article{huang2025restoration,
+  title={From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes},
+  author={Huang, Guoxi and Wang, Haoran and Qi, Zipeng and Lu, Wenjun and Bull, David and Anantrasirichai, Nantheera},
+  journal={arXiv preprint arXiv:2509.17789},
+  year={2025}
+}

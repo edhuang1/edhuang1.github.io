@@ -1,0 +1,6 @@
+@inproceedings{lin2026dynamic,
+  title={Dynamic Weight-based Temporal Aggregation for Low-light Video Enhancement},
+  author={Lin, Ruirui and Huang, Guoxi and Anantrasirichai, Nantheera},
+  booktitle={IEEE International Conference on Image Processing (ICIP)},
+  year={2026}
+}

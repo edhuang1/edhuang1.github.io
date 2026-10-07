@@ -1,6 +1,6 @@
-@article{lin2024bvi,
-  title={BVI-RLV: A Fully Registered Dataset and Benchmarks for Low-Light Video Enhancement},
-  author={Lin, Ruirui and Anantrasirichai, Nantheera and Huang, Guoxi and Lin, Joanne and Sun, Qi and Malyugina, Alexandra and Bull, David R},
-  journal={arXiv preprint arXiv:2407.03535},
-  year={2024}
+@article{lin2026bvi,
+  title={BVI-RLV: A Fully Registered Dataset for Low-Light Video Enhancement},
+  author={Lin, Ruirui and Huang, Guoxi and Lin, Joanne and Sun, Qi and Malyugina, Alexandra and Bull, David R and Anantrasirichai, Nantheera},
+  journal={IEEE Transactions on Multimedia},
+  year={2026}
 }

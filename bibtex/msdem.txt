@@ -1,0 +1,6 @@
+@article{wu2025incrementally,
+  title={Incrementally Learning Multiple Diverse Data Domains via Multi-Source Dynamic Expansion Model},
+  author={Wu, Runqing and Ye, Fei and Liu, Qihe and Huang, Guoxi and Guo, Jinyu and Hu, Rongyao},
+  journal={arXiv preprint arXiv:2501.08878},
+  year={2025}
+}

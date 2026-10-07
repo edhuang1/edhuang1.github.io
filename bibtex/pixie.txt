@@ -1,0 +1,6 @@
+@article{lin2026pixie,
+  title={PixIE: Prompted Pixel-Space Low-Light Image Enhancement},
+  author={Lin, Ruirui and Huang, Guoxi and Bull, David and Anantrasirichai, Nantheera},
+  journal={arXiv preprint arXiv:2605.23531},
+  year={2026}
+}

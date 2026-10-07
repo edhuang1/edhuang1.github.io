@@ -1,0 +1,234 @@
+# Publications, newest first.
+#
+# Fields:
+#   title, authors (HTML allowed; wrap yourself in <strong>), venue, year
+#   badge      - short label shown on the image, e.g. "CVPR 2026"
+#   image      - teaser image (also used as the video poster)
+#   video      - optional looping mp4 shown instead of the image
+#   highlight  - true for first / co-first author papers (yellow background)
+#   preprint   - true to list under "Preprints" instead of "Publications"
+#   project, paper, code, bibtex - optional links
+#   links      - optional extra links, e.g. [{name: Video, url: "https://..."}]
+#   summary    - one-sentence description
+#
+# Author markers: <sup>*</sup> equal contribution, <sup>†</sup> corresponding author.
+
+# ---------------------------------------------------------------- Publications
+
+- title: "OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning"
+  authors: 'Haoran Wang, Shaoyu Cai, Adrian Azzarelli, Zhuodong Jiang, <strong>Guoxi Huang</strong>, Eng Tat Khoo, Brett Seymour, Fan Zhang, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "SIGGRAPH Asia Conference Papers"
+  year: 2026
+  badge: "SIGGRAPH Asia 2026"
+  image: /images/oceanxl.jpg
+  project: https://wanghaoran16.github.io/OceanXL-Large-scale-Underwater-3D-Gaussian-Splatting/
+  paper: https://arxiv.org/abs/2609.29985
+  bibtex: /bibtex/oceanxl.txt
+  summary: "A fast, scalable 3DGS framework that partitions large underwater scenes into spatially coherent blocks for memory-efficient reconstruction."
+
+- title: "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting"
+  authors: 'Harvey Caldeira, Haoran Wang, <strong>Guoxi Huang</strong>, Shaoyu Cai, Rachel Fu, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "SIGGRAPH Asia Posters"
+  year: 2026
+  badge: "SIGGRAPH Asia 2026 Poster"
+  image: /images/gbw.jpg
+  paper: https://arxiv.org/abs/2609.18737
+  bibtex: /bibtex/gbw.txt
+  summary: "Adapts a feed-forward geometry foundation model to underwater degradation and uses its dense priors for sparse-view 3DGS."
+
+- title: "BVI-RLV: A Fully Registered Dataset for Low-Light Video Enhancement"
+  authors: 'Ruirui Lin, <strong>Guoxi Huang<sup>†</sup></strong>, Joanne Lin, Qi Sun, Alexandra Malyugina, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a><sup>†</sup>'
+  venue: "IEEE Transactions on Multimedia (TMM)"
+  year: 2026
+  badge: "TMM 2026"
+  image: /images/bvivideo.png
+  paper: https://arxiv.org/abs/2407.03535
+  bibtex: /bibtex/bvivideo.txt
+  summary: "A fully registered low-light video dataset with benchmarks for low-light video enhancement."
+
+- title: "Visual Enhancement and 3D Representation for Underwater Scenes: A Review"
+  authors: '<strong>Guoxi Huang</strong>, Haoran Wang, Brett Seymour, Evan Kovacs, John Ellerbrock, Dave Blackham, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "Artificial Intelligence Review"
+  year: 2026
+  badge: "AI Review 2026"
+  image: /images/uwreview.jpg
+  highlight: true
+  paper: https://arxiv.org/abs/2505.01869
+  bibtex: /bibtex/uwreview.txt
+  summary: "A systematic review of underwater visual enhancement and underwater 3D reconstruction, from physical imaging models to learning-based methods."
+
+- title: "Dynamic Weight-based Temporal Aggregation for Low-light Video Enhancement"
+  authors: 'Ruirui Lin, <strong>Guoxi Huang</strong>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "IEEE International Conference on Image Processing (ICIP)"
+  year: 2026
+  badge: "ICIP 2026"
+  image: /images/dwta.jpg
+  paper: https://arxiv.org/abs/2510.09450
+  bibtex: /bibtex/dwta.txt
+  summary: "DWTA-Net exploits long-term temporal cues through recurrent, dynamically weighted aggregation for low-light video enhancement under heavy noise."
+
+- title: "Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via Adaptive Pruning and Difference-of-Gaussian Primitives"
+  authors: 'Haoran Wang, <strong>Guoxi Huang</strong>, Fan Zhang, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2026
+  badge: "CVPR 2026"
+  image: /images/3D_DoG.png
+  paper: https://arxiv.org/pdf/2602.24136
+  code: https://github.com/WangHaoran16/Prune-Wisely-Reconstruct-Sharply
+  bibtex: /bibtex/3ddog.txt
+  summary: "A compact 3D Gaussian Splatting framework that combines adaptive pruning with Difference-of-Gaussian primitives."
+
+- title: "Learning Fine-Grained Geometry for Sparse-View Splatting via Cascade Depth Loss"
+  authors: 'Wenjun Lu, Haodong Chen, Anqi Yi, <strong>Guoxi Huang</strong>, Yuk Ying Chung, Kun Hu, Zhiyong Wang'
+  venue: "IEEE International Conference on Multimedia and Expo (ICME)"
+  year: 2026
+  badge: "ICME 2026"
+  image: /images/hdgs.png
+  paper: https://arxiv.org/pdf/2505.22279
+  bibtex: /bibtex/hdgs.txt
+  summary: "HDGS uses cascaded multi-scale depth supervision to improve sparse-view splatting geometry and reconstruction fidelity."
+
+- title: "Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement"
+  authors: '<strong>Guoxi Huang</strong>, Qirui Yang, Ruirui Lin, Zipeng Qi, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  year: 2026
+  badge: "AAAI 2026"
+  image: /images/bem_demo.jpg
+  video: /images/bem_demo.mp4
+  highlight: true
+  paper: https://arxiv.org/pdf/2501.14265
+  code: https://github.com/BinCVER/BEM
+  bibtex: /bibtex/bem.txt
+  summary: "An image enhancement model that can generate multiple enhanced images using Bayesian Neural Networks."
+
+- title: "RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction"
+  authors: 'Zhuodong Jiang, Haoran Wang, <strong>Guoxi Huang</strong>, Brett Seymour, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "British Machine Vision Conference (BMVC)"
+  year: 2025
+  badge: "BMVC 2025"
+  image: /images/rusplatting_demo.jpg
+  video: /images/rusplatting_demo.mp4
+  project: https://theflash987.github.io/RUSplatting.page/
+  paper: https://arxiv.org/pdf/2505.15737
+  bibtex: /bibtex/rusplatting.txt
+  summary: "A robust 3D Gaussian Splatting method for sparse-view underwater scene reconstruction."
+
+- title: "Marine Snow Removal Using Internally Generated Pseudo Ground Truth"
+  authors: 'Alexandra Malyugina, <strong>Guoxi Huang</strong>, Eduardo Ruiz, Benjamin Leslie, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "European Signal Processing Conference (EUSIPCO)"
+  year: 2025
+  badge: "EUSIPCO 2025"
+  image: /images/marinesnow.jpg
+  paper: https://ieeexplore.ieee.org/abstract/document/11226718/
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2504.19289
+  bibtex: /bibtex/marinesnow.txt
+  summary: "Generates paired snowy/clean training data from raw underwater videos to train a marine snow removal network."
+
+- title: "BVI-Mamba: Video Enhancement Using a Visual State-Space Model for Low-Light and Underwater Environments"
+  authors: '<strong>Guoxi Huang</strong>, Ruirui Lin, Yini Li, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "Machine Learning from Challenging Data"
+  year: 2025
+  badge: "MLCD 2025"
+  image: /images/bvimamba.jpg
+  highlight: true
+  paper: https://arxiv.org/abs/2604.23655
+  code: https://github.com/russellllaputa/BVI-Mamba
+  bibtex: /bibtex/bvimamba.txt
+  summary: "A Visual State Space (Mamba) framework that reduces the memory and compute cost of low-light and underwater video enhancement."
+
+- title: "Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis"
+  authors: 'Zipeng Qi<sup>*</sup>, <strong>Guoxi Huang<sup>*†</sup></strong>, Chenyang Liu, Fei Ye'
+  venue: "European Conference on Computer Vision (ECCV)"
+  year: 2024
+  badge: "ECCV 2024"
+  image: /images/laydiff.png
+  highlight: true
+  project: https://qizipeng.github.io/LRDiff_projectPage/
+  paper: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08372.pdf
+  bibtex: /bibtex/laydiff.txt
+  summary: "A novel image generation framework capable of producing images from specified layouts and shapes."
+
+- title: "Masked Image Residual Learning for Scaling Deeper Vision Transformers"
+  authors: '<strong>Guoxi Huang</strong>, Hongtao Fu, Adrian G. Bors'
+  venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2023
+  badge: "NeurIPS 2023"
+  image: /images/mirl.jpg
+  highlight: true
+  paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/b3bac97f3227c52c0179a6d967480867-Paper-Conference.pdf
+  code: https://github.com/russellllaputa/MIRL
+  bibtex: /bibtex/mirl.txt
+  summary: "A novel masked image modeling framework for pre-training vision transformers."
+
+- title: "BQN: Busy-Quiet Net Enabled by Motion Band-Pass Module for Action Recognition"
+  authors: '<strong>Guoxi Huang</strong>, Adrian G. Bors'
+  venue: "IEEE Transactions on Image Processing (TIP)"
+  year: 2022
+  badge: "TIP 2022"
+  image: /images/bqn.jpg
+  highlight: true
+  paper: https://ieeexplore.ieee.org/document/9833387
+  code: https://github.com/edhuang1/busy-quiet-net
+  bibtex: /bibtex/bqn.txt
+  summary: "An efficient plug-and-play action recognition approach."
+
+# ---------------------------------------------------------------- Preprints
+
+- title: "PixIE: Prompted Pixel-Space Low-Light Image Enhancement"
+  authors: 'Ruirui Lin, <strong>Guoxi Huang</strong>, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "arXiv preprint"
+  year: 2026
+  badge: "arXiv 2026"
+  image: /images/pixie.jpg
+  preprint: true
+  paper: https://arxiv.org/abs/2605.23531
+  bibtex: /bibtex/pixie.txt
+  summary: "A feed-forward pixel-space low-light enhancement framework semantically prompted by foundation-model features."
+
+- title: "Identity-Consistent Video Generation under Large Facial-Angle Variations"
+  authors: 'Bin Hu, Zipeng Qi, <strong>Guoxi Huang</strong>, Zunnan Xu, Ruicheng Zhang, Chongjie Ye, Jun Zhou, Xiu Li, Jingdong Wang'
+  venue: "arXiv preprint"
+  year: 2026
+  badge: "arXiv 2026"
+  image: /images/idvideo.jpg
+  preprint: true
+  paper: https://arxiv.org/abs/2603.21299
+  bibtex: /bibtex/idvideo.txt
+  summary: "A multi-view conditioned reference-to-video framework that balances identity consistency and facial motion naturalness."
+
+- title: "From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes"
+  authors: '<strong>Guoxi Huang</strong>, Haoran Wang, Zipeng Qi, Wenjun Lu, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "arXiv preprint"
+  year: 2025
+  badge: "arXiv 2025"
+  image: /images/r2r.jpg
+  highlight: true
+  preprint: true
+  paper: https://arxiv.org/abs/2509.17789
+  bibtex: /bibtex/r2r.txt
+  summary: "R-Splatting bridges underwater image restoration and 3DGS, fusing views from multiple restoration models into one reconstruction."
+
+- title: "Semantic-guided Gaussian Splatting for High-Fidelity Underwater Scene Reconstruction"
+  authors: 'Zhuodong Jiang, Haoran Wang, <strong>Guoxi Huang</strong>, Brett Seymour, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  venue: "arXiv preprint"
+  year: 2025
+  badge: "arXiv 2025"
+  image: /images/swagsplatting.jpg
+  preprint: true
+  paper: https://arxiv.org/abs/2509.00800
+  code: https://github.com/theflash987/SWAGSplatting
+  bibtex: /bibtex/swagsplatting.txt
+  summary: "SWAGSplatting uses semantic guidance to balance 3DGS reconstruction across well-observed and degraded underwater regions."
+
+- title: "Incrementally Learning Multiple Diverse Data Domains via Multi-Source Dynamic Expansion Model"
+  authors: 'Runqing Wu, Fei Ye, Qihe Liu, <strong>Guoxi Huang</strong>, Jinyu Guo, Rongyao Hu'
+  venue: "arXiv preprint"
+  year: 2025
+  badge: "arXiv 2025"
+  image: /images/msdem.jpg
+  preprint: true
+  paper: https://arxiv.org/abs/2501.08878
+  bibtex: /bibtex/msdem.txt
+  summary: "MSDEM leverages multiple pre-trained backbones for continual learning over data from multiple distinct domains."

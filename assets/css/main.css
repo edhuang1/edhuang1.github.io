@@ -1,0 +1,479 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #ab1f2d;            /* University of Bristol red, used for venue badges */
+  --accent-dark: #6b1520;       /* preprint badges */
+  --text: #494e52;
+  --heading: #252a2e;
+  --muted: #6f777d;
+  --link: #224b8d;
+  --link-hover: #163463;
+  --border: #eceff1;
+  --first-author-highlight: #fff8d8;
+  --first-author-highlight-border: #eedf9a;
+}
+
+html {
+  min-height: 100%;
+  background: #fff;
+  color: var(--text);
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+/* ---------- Top navigation ---------- */
+
+.masthead {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.masthead__inner-wrap {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2rem;
+  gap: 1rem;
+}
+
+.masthead__menu-home-item {
+  color: var(--heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.visible-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visible-links a {
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+/* ---------- Two-column layout ---------- */
+
+#main {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 2.5rem;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3.5rem;
+}
+
+.sidebar {
+  min-width: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 1.25rem;
+  align-self: start;
+}
+
+/* ---------- Sidebar profile ---------- */
+
+.author__avatar {
+  width: 170px;
+  margin: 0 auto 1rem;
+}
+
+.author__avatar img {
+  display: block;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border: 1px solid #e6e8eb;
+  border-radius: 6px;
+}
+
+.author__content {
+  text-align: center;
+}
+
+.author__name {
+  margin: 0.6rem 0 0.15rem;
+  color: var(--heading);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.author__native-name {
+  margin: 0 0 0.45rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.author__bio {
+  margin: 0 0 1rem;
+  color: #5d646a;
+  font-size: 0.95rem;
+}
+
+.author__urls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.92rem;
+}
+
+.author__urls li {
+  margin: 0.45rem 0;
+  overflow-wrap: anywhere;
+}
+
+.author__urls .bio-note {
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.author__urls a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.author__urls svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.icon-email svg { color: #5d646a; }
+.icon-scholar svg { color: #4285f4; }
+.icon-github svg { color: #24292f; }
+.icon-linkedin svg { color: #0a66c2; }
+
+/* ---------- Main content ---------- */
+
+.page {
+  min-width: 0;
+}
+
+.page__inner-wrap {
+  max-width: 840px;
+}
+
+.page__content {
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.page__content p {
+  margin: 0 0 0.7rem;
+}
+
+.page__content h2 {
+  margin: 1.55rem 0 0.8rem;
+  padding-bottom: 0.35rem;
+  color: var(--heading);
+  font-size: 1.35rem;
+  line-height: 1.25;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 1rem;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -1rem;
+  visibility: hidden;
+}
+
+.section-note {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.legend-highlight {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.2em;
+  vertical-align: -0.1em;
+  border: 1px solid var(--first-author-highlight-border);
+  border-radius: 2px;
+  background: var(--first-author-highlight);
+}
+
+.news-list {
+  margin: 0 0 1rem 1.2rem;
+  padding: 0;
+}
+
+.news-list li {
+  margin: 0.35rem 0;
+}
+
+/* ---------- Publication cards ---------- */
+
+.paper-box {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 1.15rem;
+  margin: 1.1rem 0 1.35rem;
+  padding-bottom: 1.35rem;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.paper-box-highlight {
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  padding: 0.85rem 0.75rem 1.35rem;
+  border: 1px solid var(--first-author-highlight-border);
+  border-radius: 6px;
+  background: var(--first-author-highlight);
+}
+
+.paper-box-image {
+  min-width: 0;
+}
+
+/* Fixed 16:9 frame so very wide figures stay centred and leave room for the badge. */
+.paper-box-image > div {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #e2e6e9;
+  border-radius: 4px;
+  background: #f7f8f9;
+}
+
+.paper-box-image img,
+.paper-box-image video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.paper-box-text {
+  min-width: 0;
+  color: var(--text);
+}
+
+.paper-box-text p {
+  margin: 0 0 0.55rem;
+}
+
+.paper-box-text strong {
+  color: var(--heading);
+}
+
+.paper-box-text sup {
+  line-height: 0;
+}
+
+.paper-venue {
+  font-size: 0.95rem;
+}
+
+.paper-links a {
+  font-weight: 700;
+}
+
+.badge {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.55rem;
+  z-index: 1;
+  display: inline-block;
+  padding: 0.16rem 0.46rem;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.4;
+  background: var(--accent);
+}
+
+.bg-muted {
+  background: var(--accent-dark);
+}
+
+/* ---------- Inline BibTeX ---------- */
+
+.bibtex-block {
+  position: relative;
+  margin: 0 0 0.7rem;
+}
+
+.bibtex-block[hidden] {
+  display: none;
+}
+
+.bibtex-block pre {
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  overflow-x: auto;
+  border: 1px solid #e2e6e9;
+  border-radius: 4px;
+  background: #f7f8f9;
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.bibtex-copy {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid #d5dade;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.bibtex-copy:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+/* ---------- Footer ---------- */
+
+.page-footer {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2rem;
+  color: #777;
+  font-size: 0.86rem;
+  border-top: 1px solid #f2f3f3;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .greedy-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .visible-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.8rem 1rem;
+  }
+
+  #main {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 1.4rem;
+  }
+
+  .sticky {
+    position: static;
+  }
+
+  .profile_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    text-align: center;
+  }
+
+  .author__avatar {
+    width: 110px;
+    margin: 0;
+  }
+
+  .author__avatar img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .author__urls-wrapper {
+    width: 100%;
+  }
+
+  .author__urls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.35rem 0.9rem;
+  }
+
+  .author__urls li {
+    margin: 0;
+  }
+
+  .author__urls .bio-note {
+    flex-basis: 100%;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  html {
+    font-size: 14px;
+  }
+
+  .masthead__inner-wrap,
+  #main,
+  .page-footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .paper-box {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .paper-box-highlight {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}

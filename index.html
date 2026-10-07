@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<p><span class="anchor" id="about-me"></span>
+  Hi! I am a Lecturer (Assistant Professor) at <a href="https://www.aston.ac.uk/" target="_blank" rel="noopener">Aston University</a>.
+  Previously, I was a Postdoctoral Research Associate at the <a href="https://www.bristol.ac.uk/" target="_blank" rel="noopener">University of Bristol</a>,
+  working with <a href="https://pui-nantheera.github.io/" target="_blank" rel="noopener">Prof. Nantheera Anantrasirichai (Pui)</a>
+  in the <a href="https://vilab.blogs.bristol.ac.uk/" target="_blank" rel="noopener">Visual Information Laboratory</a>
+  and the <a href="https://www.bristol.ac.uk/vision-institute/" target="_blank" rel="noopener">Bristol Vision Institute</a>,
+  both led by <a href="https://david-bull.github.io/" target="_blank" rel="noopener">Prof. David Bull</a>.
+  Before that, I was a Senior Research Engineer at <a href="https://en.wikipedia.org/wiki/Baidu" target="_blank" rel="noopener">Baidu Inc.</a>
+  My research focuses on image generation, low-level vision, 3D reconstruction (e.g., 3D Gaussian Splatting), image/video understanding and other computer vision topics.
+</p>
+<p>
+  If you are interested in collaborating, please contact me via email at
+  <a class="js-email" data-user="{{ site.author.email_user }}" data-domain="{{ site.author.email_domain }}" data-show="address" href="#about-me">{{ site.author.email_user }} [at] {{ site.author.email_domain }}</a>.
+</p>
+
+<h2 id="news">News</h2>
+<ul class="news-list">
+  {% for item in site.data.news %}
+  <li><em>{{ item.date }}</em>: {{ item.text }}</li>
+  {% endfor %}
+</ul>
+
+<h2 id="publications">Publications</h2>
+<p class="section-note"><sup>*</sup> Equal contribution &nbsp;&nbsp; <sup>†</sup> Corresponding author &nbsp;&nbsp; <span class="legend-highlight"></span> First / co-first author</p>
+{% for pub in site.data.publications %}{% unless pub.preprint %}
+{% include paper.html %}
+{% endunless %}{% endfor %}
+
+{% assign n_preprints = 0 %}
+{% for pub in site.data.publications %}{% if pub.preprint %}{% assign n_preprints = n_preprints | plus: 1 %}{% endif %}{% endfor %}
+{% if n_preprints > 0 %}
+<h2 id="preprints">Preprints</h2>
+{% for pub in site.data.publications %}{% if pub.preprint %}
+{% include paper.html %}
+{% endif %}{% endfor %}
+{% endif %}
+
+<!--
+<h2 id="services">Academic Services</h2>
+<ul class="news-list">
+  <li>Conference reviewer: CVPR, NeurIPS, BMVC, etc.</li>
+  <li>Journal reviewer: TPAMI, IJCV, TIP, TNNLS, Pattern Recognition, etc.</li>
+</ul>
+-->

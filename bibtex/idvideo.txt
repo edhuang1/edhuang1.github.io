@@ -1,0 +1,6 @@
+@article{hu2026identity,
+  title={Identity-Consistent Video Generation under Large Facial-Angle Variations},
+  author={Hu, Bin and Qi, Zipeng and Huang, Guoxi and Xu, Zunnan and Zhang, Ruicheng and Ye, Chongjie and Zhou, Jun and Li, Xiu and Wang, Jingdong},
+  journal={arXiv preprint arXiv:2603.21299},
+  year={2026}
+}

@@ -1,0 +1,6 @@
+@inproceedings{wang2026oceanxl,
+  title={OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning},
+  author={Wang, Haoran and Cai, Shaoyu and Azzarelli, Adrian and Jiang, Zhuodong and Huang, Guoxi and Khoo, Eng Tat and Seymour, Brett and Zhang, Fan and Bull, David and Anantrasirichai, Nantheera},
+  booktitle={SIGGRAPH Asia 2026 Conference Papers},
+  year={2026}
+}

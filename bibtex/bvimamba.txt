@@ -1,0 +1,6 @@
+@inproceedings{huang2025bvimamba,
+  title={BVI-Mamba: Video Enhancement Using a Visual State-Space Model for Low-Light and Underwater Environments},
+  author={Huang, Guoxi and Lin, Ruirui and Li, Yini and Bull, David R and Anantrasirichai, Nantheera},
+  booktitle={Machine Learning from Challenging Data 2025},
+  year={2025}
+}

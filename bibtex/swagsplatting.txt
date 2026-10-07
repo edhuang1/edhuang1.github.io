@@ -1,0 +1,6 @@
+@article{jiang2025semantic,
+  title={Semantic-guided Gaussian Splatting for High-Fidelity Underwater Scene Reconstruction},
+  author={Jiang, Zhuodong and Wang, Haoran and Huang, Guoxi and Seymour, Brett and Anantrasirichai, Nantheera},
+  journal={arXiv preprint arXiv:2509.00800},
+  year={2025}
+}

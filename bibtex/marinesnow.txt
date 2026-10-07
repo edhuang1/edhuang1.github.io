@@ -1,0 +1,6 @@
+@inproceedings{malyugina2025marine,
+  title={Marine Snow Removal Using Internally Generated Pseudo Ground Truth},
+  author={Malyugina, Alexandra and Huang, Guoxi and Ruiz, Eduardo and Leslie, Benjamin and Anantrasirichai, Nantheera},
+  booktitle={2025 33rd European Signal Processing Conference (EUSIPCO)},
+  year={2025}
+}
