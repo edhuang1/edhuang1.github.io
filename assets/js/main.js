@@ -1,9 +1,11 @@
 (function () {
-  // Assemble email links here so the address never appears in plain HTML.
+  // The page only shows "user [at] domain"; the real address is assembled on click,
+  // so it never appears in the HTML or the rendered page for scrapers to harvest.
   document.querySelectorAll('.js-email').forEach(function (link) {
-    var address = link.dataset.user + '@' + link.dataset.domain;
-    link.href = 'mailto:' + address;
-    if (link.dataset.show === 'address') link.textContent = address;
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      window.location.href = 'mailto:' + link.dataset.user + '@' + link.dataset.domain;
+    });
   });
 
   // Show BibTeX inline. Without JavaScript the link still opens the .txt file.
