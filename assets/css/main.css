@@ -5,7 +5,7 @@
 }
 
 :root {
-  --accent: #ab1f2d;            /* University of Bristol red, used for venue badges */
+  --accent: #ab1f2d;            /* accent red: venue badges and the PhD callout */
   --accent-dark: #6b1520;       /* preprint badges */
   --text: #494e52;
   --heading: #252a2e;
@@ -222,6 +222,18 @@ video {
   position: relative;
   top: -1rem;
   visibility: hidden;
+}
+
+.callout {
+  margin: 0.2rem 0 0.9rem;
+  padding: 0.65rem 0.9rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  background: #fbf1f2;
+}
+
+.callout strong {
+  color: var(--heading);
 }
 
 .section-note {

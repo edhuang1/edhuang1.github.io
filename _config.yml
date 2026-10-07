@@ -2,7 +2,7 @@
 # Site settings
 #
 title: "Guoxi Huang (Edward) - Homepage"
-description: "Guoxi Huang (Edward), Lecturer (Assistant Professor) at Aston University. Research in image generation, low-level vision, 3D reconstruction, and image/video understanding."
+description: "Guoxi Huang (Edward), Lecturer (Assistant Professor) at Aston University. Research in image/video generation, 3D/4D reconstruction, and low-level vision."
 url: "https://edhuang1.github.io" # the base hostname & protocol for your site
 baseurl: ""
 
@@ -14,7 +14,7 @@ author:
   native_name: ""   # optional second line under the name, e.g. your Chinese name
   avatar: /images/id.jpg
   bio: "Lecturer (Assistant Professor),<br>Aston University"   # HTML allowed; <br> forces a line break
-  note: "Computer vision researcher focusing on image generation, low-level vision, 3D reconstruction, and image/video understanding."
+  note: "Computer vision researcher focusing on image/video generation, 3D/4D reconstruction, and low-level vision."
   # The email address is assembled by JavaScript so it never appears in plain HTML.
   email_user: g.huang2
   email_domain: aston.ac.uk
