@@ -13,7 +13,7 @@ author:
   name: "Guoxi Huang (Edward)"
   native_name: ""   # optional second line under the name, e.g. your Chinese name
   avatar: /images/id.jpg
-  bio: "Lecturer (Assistant Professor), Aston University"
+  bio: "Lecturer (Assistant Professor),<br>Aston University"   # HTML allowed; <br> forces a line break
   note: "Computer vision researcher focusing on image generation, low-level vision, 3D reconstruction, and image/video understanding."
   # The email address is assembled by JavaScript so it never appears in plain HTML.
   email_user: g.huang2
