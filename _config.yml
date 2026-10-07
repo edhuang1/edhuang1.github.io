@@ -19,7 +19,7 @@ author:
   email_user: g.huang2
   email_domain: aston.ac.uk
   scholar: "https://scholar.google.com/citations?user=q16Hy-sAAAAJ&view_op=list_works&sortby=pubdate"
-  github: "https://github.com/edhuang1"
+  # github: "https://github.com/edhuang1"   # uncomment to show a GitHub link in the sidebar
   linkedin: "https://www.linkedin.com/in/edward-huang-b7a757145/"
 
 #
