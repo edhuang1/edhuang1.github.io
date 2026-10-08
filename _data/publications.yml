@@ -87,7 +87,7 @@
   summary: "HDGS uses cascaded multi-scale depth supervision to improve sparse-view splatting geometry and reconstruction fidelity."
 
 - title: "Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement"
-  authors: '<strong>Guoxi Huang</strong>, Qirui Yang, Ruirui Lin, Zipeng Qi, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  authors: '<strong>Guoxi Huang</strong>, Qirui Yang, Ruirui Lin, <a href="https://qizipeng.github.io/">Zipeng Qi</a>, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
   venue: "AAAI Conference on Artificial Intelligence (AAAI)"
   year: 2026
   badge: "AAAI 2026"
@@ -135,7 +135,7 @@
   summary: "A Visual State Space (Mamba) framework that reduces the memory and compute cost of low-light and underwater video enhancement."
 
 - title: "Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis"
-  authors: 'Zipeng Qi<sup>*</sup>, <strong>Guoxi Huang<sup>*†</sup></strong>, Chenyang Liu, Fei Ye'
+  authors: '<a href="https://qizipeng.github.io/">Zipeng Qi</a><sup>*</sup>, <strong>Guoxi Huang<sup>*†</sup></strong>, Chenyang Liu, Fei Ye'
   venue: "European Conference on Computer Vision (ECCV)"
   year: 2024
   badge: "ECCV 2024"
@@ -181,7 +181,7 @@
   summary: "A feed-forward pixel-space low-light enhancement framework semantically prompted by foundation-model features."
 
 - title: "Identity-Consistent Video Generation under Large Facial-Angle Variations"
-  authors: 'Bin Hu, Zipeng Qi, <strong>Guoxi Huang</strong>, Zunnan Xu, Ruicheng Zhang, Chongjie Ye, Jun Zhou, Xiu Li, Jingdong Wang'
+  authors: 'Bin Hu, <a href="https://qizipeng.github.io/">Zipeng Qi</a>, <strong>Guoxi Huang</strong>, Zunnan Xu, Ruicheng Zhang, Chongjie Ye, Jun Zhou, Xiu Li, Jingdong Wang'
   venue: "arXiv preprint"
   year: 2026
   badge: "arXiv 2026"
@@ -192,7 +192,7 @@
   summary: "A multi-view conditioned reference-to-video framework that balances identity consistency and facial motion naturalness."
 
 - title: "From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes"
-  authors: '<strong>Guoxi Huang</strong>, Haoran Wang, Zipeng Qi, Wenjun Lu, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
+  authors: '<strong>Guoxi Huang</strong>, Haoran Wang, <a href="https://qizipeng.github.io/">Zipeng Qi</a>, Wenjun Lu, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
   venue: "arXiv preprint"
   year: 2025
   badge: "arXiv 2025"
