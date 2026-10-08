@@ -1,7 +1,7 @@
 #
 # Site settings
 #
-title: "Guoxi Huang (Edward) - Homepage"
+title: "Guoxi Huang (Edward) | Lecturer at Aston University"
 description: "Guoxi Huang (Edward), Lecturer (Assistant Professor) at Aston University. Research in image/video generation, 3D/4D reconstruction, and low-level vision."
 url: "https://edhuang1.github.io" # the base hostname & protocol for your site
 baseurl: ""
@@ -45,3 +45,10 @@ exclude:
   - command.txt
   - todo.txt
   - _temp/
+
+# Keep the Google Search Console verification file out of the sitemap.
+defaults:
+  - scope:
+      path: "googled4ddc57999fde0d6.html"
+    values:
+      sitemap: false

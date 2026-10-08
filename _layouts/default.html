@@ -8,6 +8,34 @@
   <meta name="author" content="{{ site.author.name }}">
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
   <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+
+  <!-- Social previews -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.author.avatar }}">
+  <meta property="profile:first_name" content="Guoxi">
+  <meta property="profile:last_name" content="Huang">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Tells search engines this is the personal page of the person below -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Guoxi Huang",
+    "alternateName": ["Edward Huang", "Guoxi Huang (Edward)"],
+    "givenName": "Guoxi",
+    "familyName": "Huang",
+    "jobTitle": "Lecturer (Assistant Professor)",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "Aston University", "url": "https://www.aston.ac.uk/" },
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ site.url }}{{ site.baseurl }}{{ site.author.avatar }}",
+    "knowsAbout": ["Computer Vision", "Image Generation", "Video Generation", "3D Reconstruction", "4D Reconstruction", "3D Gaussian Splatting", "Low-level Vision", "World Models"],
+    "sameAs": [{% if site.author.scholar %}"{{ site.author.scholar }}"{% endif %}{% if site.author.linkedin %}, "{{ site.author.linkedin }}"{% endif %}]
+  }
+  </script>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 <body>
