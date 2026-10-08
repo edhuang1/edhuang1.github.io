@@ -69,6 +69,12 @@
     &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}.
   </footer>
 
+  <!-- Visitor counter (busuanzi). Transparent; only visible when the text is selected. -->
+  <div class="visitor-count">
+    Visitors: <span id="busuanzi_value_site_uv">-</span> &middot; Views: <span id="busuanzi_value_site_pv">-</span>
+  </div>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
   <script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
 </body>
 </html>

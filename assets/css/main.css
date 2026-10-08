@@ -378,6 +378,23 @@ video {
   border-top: 1px solid #f2f3f3;
 }
 
+/* ---------- Hidden visitor counter (select text to reveal) ---------- */
+
+.visitor-count {
+  position: fixed;
+  right: 0.6rem;
+  bottom: 0.4rem;
+  z-index: 10;
+  color: transparent;
+  font-size: 0.75rem;
+}
+
+.visitor-count::selection,
+.visitor-count *::selection {
+  color: var(--text);
+  background: #d8e2f0;
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
