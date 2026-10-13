@@ -477,3 +477,8 @@ video {
     gap: 0.75rem;
   }
 }
+
+/* Plain-text email in About Me: link colour, but not clickable */
+.email-text {
+  color: var(--link);
+}
