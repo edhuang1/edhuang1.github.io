@@ -240,7 +240,7 @@ video {
 }
 
 .news-scroll {
-  max-height: 24rem;
+  max-height: 20rem;
   overflow-y: auto;
   margin-bottom: 1rem;
 }
