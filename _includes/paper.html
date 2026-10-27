@@ -2,7 +2,6 @@
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      {% if pub.badge %}<div class="badge{% if pub.preprint %} bg-muted{% endif %}">{{ pub.badge }}</div>{% endif %}
       {% if pub.video %}
       <video src="{{ site.baseurl }}{{ pub.video }}" poster="{{ site.baseurl }}{{ pub.image }}" muted autoplay loop playsinline preload="metadata" aria-label="{{ pub.title | escape }} preview"></video>
       {% else %}
@@ -11,17 +10,14 @@
     </div>
   </div>
   <div class="paper-box-text">
-    <p><strong class="paper-title">{{ pub.title }}</strong><br>
-      {{ pub.authors }}
-    </p>
-    <p class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
-    {% assign sep = false %}
+    <p class="paper-title">{{ pub.title }}</p>
+    <p class="paper-meta">{{ pub.authors }}. <em>{{ pub.venue }}</em>, {{ pub.year }}</p>
     <p class="paper-links">
-      {% if pub.project %}<a href="{{ pub.project }}" target="_blank" rel="noopener">Project</a>{% assign sep = true %}{% endif %}
-      {% if pub.paper %}{% if sep %} / {% endif %}<a href="{{ pub.paper }}" target="_blank" rel="noopener">Paper</a>{% assign sep = true %}{% endif %}
-      {% if pub.code %}{% if sep %} / {% endif %}<a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% assign sep = true %}{% endif %}
-      {% for link in pub.links %}{% if sep %} / {% endif %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>{% assign sep = true %}{% endfor %}
-      {% if pub.bibtex %}{% if sep %} / {% endif %}<a class="js-bibtex" href="{{ site.baseurl }}{{ pub.bibtex }}">BibTeX</a>{% endif %}
+      {% if pub.paper %}<a class="paper-link-paper" href="{{ pub.paper }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+      {% if pub.code %}<a class="paper-link-code" href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+      {% if pub.project %}<a class="paper-link-project" href="{{ pub.project }}" target="_blank" rel="noopener">Project</a>{% endif %}
+      {% for link in pub.links %}<a class="paper-link-extra" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>{% endfor %}
+      {% if pub.bibtex %}<a class="paper-link-bibtex js-bibtex" href="{{ site.baseurl }}{{ pub.bibtex }}">BibTeX</a>{% endif %}
     </p>
     {% if pub.bibtex %}
     <div class="bibtex-block" hidden>
@@ -29,6 +25,5 @@
       <pre><code></code></pre>
     </div>
     {% endif %}
-    {% if pub.summary %}<p class="paper-summary">{{ pub.summary }}</p>{% endif %}
   </div>
 </div>

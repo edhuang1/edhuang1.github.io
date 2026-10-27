@@ -258,10 +258,10 @@ video {
 
 .paper-box {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
-  gap: 1.15rem;
-  margin: 1.1rem 0 1.35rem;
-  padding-bottom: 1.35rem;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #eef0f2;
 }
 
@@ -269,10 +269,8 @@ video {
   min-width: 0;
 }
 
-/* Fixed 16:9 frame so very wide figures stay centred and leave room for the badge. */
 .paper-box-image > div {
-  position: relative;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   border: 1px solid #e2e6e9;
   border-radius: 4px;
@@ -293,7 +291,7 @@ video {
 }
 
 .paper-box-text p {
-  margin: 0 0 0.55rem;
+  margin: 0 0 0.35rem;
 }
 
 .paper-box-text strong {
@@ -304,32 +302,45 @@ video {
   line-height: 0;
 }
 
-.paper-venue {
-  font-size: 0.95rem;
+.paper-box-text .paper-title {
+  color: var(--heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.paper-meta {
+  line-height: 1.45;
+}
+
+.paper-box-text .paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0;
 }
 
 .paper-links a {
-  font-weight: 700;
-}
-
-.badge {
-  position: absolute;
-  top: 0.55rem;
-  left: 0.55rem;
-  z-index: 1;
   display: inline-block;
-  padding: 0.16rem 0.46rem;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 0.76rem;
+  padding: 0.1rem 0.48rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: #a0444a;
+  font-size: 0.82rem;
   font-weight: 700;
-  line-height: 1.4;
-  background: var(--accent);
+  line-height: 1.5;
 }
 
-.bg-muted {
-  background: var(--accent-dark);
+.paper-links a:hover,
+.paper-links a:focus-visible {
+  background: #f6f7f9;
+  text-decoration: none;
 }
+
+.paper-links .paper-link-code { color: #326dad; }
+.paper-links .paper-link-project { color: #8755a0; }
+.paper-links .paper-link-extra { color: #9b603a; }
+.paper-links .paper-link-bibtex { color: #6b6278; }
 
 /* ---------- Inline BibTeX ---------- */
 
@@ -479,7 +490,7 @@ video {
   }
 
   .paper-box {
-    grid-template-columns: 1fr;
+    grid-template-columns: 92px minmax(0, 1fr);
     gap: 0.75rem;
   }
 }
