@@ -21,11 +21,13 @@ layout: default
 </p>
 
 <h2 id="news">News</h2>
+<div class="news-scroll" role="region" aria-labelledby="news" tabindex="0">
 <ul class="news-list">
   {% for item in site.data.news %}
   <li><em>{{ item.date }}</em>: {{ item.text }}</li>
   {% endfor %}
 </ul>
+</div>
 
 <h2 id="publications">Publications</h2>
 <p class="section-note"><sup>*</sup> Equal contribution</p>
