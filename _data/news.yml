@@ -1,5 +1,8 @@
 # News items, newest first. `text` may contain HTML.
 - date: "2026.10"
+  text: 'Our survey on <strong>Visual Generative AI for Extended Reality</strong> is available as a <a href="https://www.preprints.org/manuscript/202610.2630">preprint</a>, with an <a href="https://edhuang1.github.io/xr-survey/">interactive project page</a>.'
+
+- date: "2026.10"
   text: '<strong>BVI-RLV</strong> (low-light video dataset) is accepted to <strong>IEEE Transactions on Multimedia</strong>.'
 
 - date: "2026.09"

@@ -169,6 +169,18 @@
 
 # ---------------------------------------------------------------- Preprints
 
+- title: "Visual Generative AI for Extended Reality: A Survey"
+  authors: '<strong>Guoxi Huang</strong>'
+  venue: "Preprints.org preprint"
+  year: 2026
+  badge: "Preprint 2026"
+  image: /images/xr-survey.webp
+  preprint: true
+  project: https://edhuang1.github.io/xr-survey/
+  paper: https://www.preprints.org/manuscript/202610.2630
+  bibtex: /bibtex/xr-survey.txt
+  summary: "A survey of visual generative AI for XR, connecting 3D assets, spatial scenes, dynamic worlds, and interactive systems."
+
 - title: "PixIE: Prompted Pixel-Space Low-Light Image Enhancement"
   authors: 'Ruirui Lin, <strong>Guoxi Huang</strong>, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
   venue: "arXiv preprint"
