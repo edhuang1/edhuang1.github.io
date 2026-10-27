@@ -29,7 +29,7 @@ layout: default
 </ul>
 </div>
 
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Selected papers</h2>
 <p class="section-note"><sup>*</sup> Equal contribution</p>
 {% assign publication_years = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year in publication_years %}{% for pub in year.items %}
