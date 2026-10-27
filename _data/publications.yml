@@ -1,11 +1,11 @@
-# Publications, newest first.
+# Publications, with newer papers first within each year.
 #
 # Fields:
 #   title, authors (HTML allowed; wrap yourself in <strong>), venue, year
 #   badge      - short label shown on the image, e.g. "CVPR 2026"
 #   image      - teaser image (also used as the video poster)
 #   video      - optional looping mp4 shown instead of the image
-#   preprint   - true to list under "Preprints" instead of "Publications"
+#   preprint   - true to use the muted preprint badge
 #   project, paper, code, bibtex - optional links
 #   links      - optional extra links, e.g. [{name: Video, url: "https://..."}]
 #   summary    - one-sentence description
@@ -13,6 +13,18 @@
 # Author markers: <sup>*</sup> equal contribution, <sup>†</sup> corresponding author.
 
 # ---------------------------------------------------------------- Publications
+
+- title: "Visual Generative AI for Extended Reality: A Survey"
+  authors: '<strong>Guoxi Huang</strong>'
+  venue: "Preprints.org preprint"
+  year: 2026
+  badge: "Preprint 2026"
+  image: /images/xr-survey.webp
+  preprint: true
+  project: https://edhuang1.github.io/xr-survey/
+  paper: https://www.preprints.org/manuscript/202610.2630
+  bibtex: /bibtex/xr-survey.txt
+  summary: "A survey of visual generative AI for XR, connecting 3D assets, spatial scenes, dynamic worlds, and interactive systems."
 
 - title: "OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning"
   authors: 'Haoran Wang, Shaoyu Cai, Adrian Azzarelli, Zhuodong Jiang, <strong>Guoxi Huang</strong>, Eng Tat Khoo, Brett Seymour, Fan Zhang, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'
@@ -166,20 +178,6 @@
   code: https://github.com/edhuang1/busy-quiet-net
   bibtex: /bibtex/bqn.txt
   summary: "An efficient plug-and-play action recognition approach."
-
-# ---------------------------------------------------------------- Preprints
-
-- title: "Visual Generative AI for Extended Reality: A Survey"
-  authors: '<strong>Guoxi Huang</strong>'
-  venue: "Preprints.org preprint"
-  year: 2026
-  badge: "Preprint 2026"
-  image: /images/xr-survey.webp
-  preprint: true
-  project: https://edhuang1.github.io/xr-survey/
-  paper: https://www.preprints.org/manuscript/202610.2630
-  bibtex: /bibtex/xr-survey.txt
-  summary: "A survey of visual generative AI for XR, connecting 3D assets, spatial scenes, dynamic worlds, and interactive systems."
 
 - title: "PixIE: Prompted Pixel-Space Low-Light Image Enhancement"
   authors: 'Ruirui Lin, <strong>Guoxi Huang</strong>, <a href="https://david-bull.github.io/">David Bull</a>, <a href="https://pui-nantheera.github.io/">Nantheera Anantrasirichai</a>'

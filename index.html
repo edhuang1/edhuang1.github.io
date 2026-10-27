@@ -31,18 +31,10 @@ layout: default
 
 <h2 id="publications">Publications</h2>
 <p class="section-note"><sup>*</sup> Equal contribution</p>
-{% for pub in site.data.publications %}{% unless pub.preprint %}
+{% assign publication_years = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for year in publication_years %}{% for pub in year.items %}
 {% include paper.html %}
-{% endunless %}{% endfor %}
-
-{% assign n_preprints = 0 %}
-{% for pub in site.data.publications %}{% if pub.preprint %}{% assign n_preprints = n_preprints | plus: 1 %}{% endif %}{% endfor %}
-{% if n_preprints > 0 %}
-<h2 id="preprints">Preprints</h2>
-{% for pub in site.data.publications %}{% if pub.preprint %}
-{% include paper.html %}
-{% endif %}{% endfor %}
-{% endif %}
+{% endfor %}{% endfor %}
 
 <!--
 <h2 id="services">Academic Services</h2>
