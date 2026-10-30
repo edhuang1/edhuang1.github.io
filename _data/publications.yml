@@ -223,14 +223,3 @@
   code: https://github.com/theflash987/SWAGSplatting
   bibtex: /bibtex/swagsplatting.txt
   summary: "SWAGSplatting uses semantic guidance to balance 3DGS reconstruction across well-observed and degraded underwater regions."
-
-- title: "Incrementally Learning Multiple Diverse Data Domains via Multi-Source Dynamic Expansion Model"
-  authors: 'Runqing Wu, Fei Ye, Qihe Liu, <strong>Guoxi Huang</strong>, Jinyu Guo, Rongyao Hu'
-  venue: "arXiv preprint"
-  year: 2025
-  badge: "arXiv 2025"
-  image: /images/msdem.jpg
-  preprint: true
-  paper: https://arxiv.org/abs/2501.08878
-  bibtex: /bibtex/msdem.txt
-  summary: "MSDEM leverages multiple pre-trained backbones for continual learning over data from multiple distinct domains."
